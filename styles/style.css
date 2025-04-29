@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("/styles/header.css");
+
+:root {
+    --fonte: 'Inter', sans-serif;
+    --cor_textos: #667085;
+    --cor_destaque: #8E2424;
+    --cor_fundo: #FFFFFF;
+    --cor_logo: #3A404E;
+}
+
+body {
+    font-family: var(--fonte);
+    font-size: 16px;
+    background-color: var(--cor_fundo);
+    color: var(--cor_textos);
+    margin: 0;
+    padding: 0;
+}
