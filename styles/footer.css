@@ -1,0 +1,66 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 96px 0 96px 0;
+    margin-top: 96px;
+    background-color: var(--cor_footer);
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato__titulo{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor_titulo);
+    line-height: 44px;
+    text-align: center;
+}
+
+.contato__texto{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contato__formulario{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.contato__input{
+    padding: 12px 14px 12px 16px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+}
+
+.contato__botao{
+    padding: 12px 20px 12px 20px;
+    background-color: var(--cor_destaque);
+    border-radius: 8px;
+    color: var(--cor_fundo);
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.disclaimer{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor_disclaimer);
+    text-align: center;
+    margin-top: 32px;
+}
